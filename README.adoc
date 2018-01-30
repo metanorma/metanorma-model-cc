@@ -1,1 +1,12 @@
-= CSD
+= CSD Models
+
+This is where we keep the CSD model definitions.
+
+The CSD Standard Document format is an instance of the
+https://github.com/riboseinc/isodoc-models[StandardDocument model]. Details of
+the general model can be found on its page.
+
+== CSD Standard Document Model
+
+image::images/csd.png[]
+
