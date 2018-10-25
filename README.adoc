@@ -8,5 +8,5 @@ Details of the general model can be found on its page.
 
 == CSD Standard Document Model
 
-image::images/png/CSDModel__CSDModel_0.png[]
+image::images/Csd_CsdStandardDocument.png[]
 
