@@ -1,0 +1,17 @@
+# LocalizedString used instead if bibliographic item is not a CSD document
+name: CcStatusType
+modelType: enum
+type: enumeration
+values:
+  proposal:
+    definition:
+  working_draft:
+    definition:
+  committee_draft:
+    definition:
+  final_draft:
+    definition:
+  published:
+    definition:
+  withdrawn:
+    definition:

@@ -1,0 +1,12 @@
+name: Keyword
+modelType: class
+definition: |
+
+attributes:
+
+relations:
+  - target: TextElement
+    relationship:
+      target:
+        type: inheritance
+    direction: up
