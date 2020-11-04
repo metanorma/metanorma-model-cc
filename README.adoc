@@ -1,8 +1,7 @@
 = Metanorma CSD Models
 
-image:https://github.com/metanorma/metanorma-model-csd/workflows/ubuntu/badge.svg["Ubuntu Build Status", link="https://github.com/metanorma/metanorma-model-csd/actions?query=workflow%3Aubuntu"]
-image:https://github.com/metanorma/metanorma-model-csd/workflows/macos/badge.svg["OSX Build Status", link="https://github.com/metanorma/metanorma-model-csd/actions?query=workflow%3Amacos"]
-image:https://github.com/metanorma/metanorma-model-csd/workflows/windows/badge.svg["Windows Build Status", link="https://github.com/metanorma/metanorma-model-csd/actions?query=workflow%3Awindows"]
+image:https://github.com/metanorma/metanorma-model-csd/workflows/make/badge.svg["Build Status", link="https://github.com/metanorma/metanorma-model-csd/actions?workflow=make"]
+
 
 This is where we keep the Metanorma CSD model definitions.
 
