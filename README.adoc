@@ -1,15 +1,15 @@
-= Metanorma CSD Models
+= Metanorma CalConnect Models
 
-image:https://github.com/metanorma/metanorma-model-csd/workflows/make/badge.svg["Build Status", link="https://github.com/metanorma/metanorma-model-csd/actions?workflow=make"]
+image:https://github.com/metanorma/metanorma-model-cc/workflows/make/badge.svg["Build Status", link="https://github.com/metanorma/metanorma-model-cc/actions?workflow=make"]
 
 
-This is where we keep the Metanorma CSD model definitions.
+This is where we keep the Metanorma CalConnect model definitions.
 
-The CSD Standard Document format is an instance of the
+The CalConnect Standard Document format is an instance of the
 https://github.com/metanorma/metanorma-model-standoc[Metanorma StandardDocument model].
 Details of the general model can be found on its page.
 
-== CSD Standard Document Model
+== CalConnect Standard Document Model
 
 image::images/Csd_CsdStandardDocument.png[]
 
