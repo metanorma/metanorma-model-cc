@@ -1,0 +1,10 @@
+enum CcDocumentType <<enumeration>>{
+    directive
+    standard
+    guide
+    specification
+    amendment
+    technical_corrigendum
+    report
+    administrative
+}

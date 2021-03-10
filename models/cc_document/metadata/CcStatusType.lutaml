@@ -1,0 +1,8 @@
+enum CcStatusType <<enumeration>>{
+    proposal
+    working_draft
+    committee_draft
+    final_draft
+    published
+    withdrawn
+}

@@ -1,0 +1,5 @@
+class CcBibliographicItem {
+    +committee: CcTechnicalCommittee[1..*]
+    +type: CcDocumentType
+    +title: FormattedString
+}

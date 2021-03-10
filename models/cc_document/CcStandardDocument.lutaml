@@ -1,0 +1,7 @@
+class CcStandardDocument {
+  +bibdata: CcBibliographicItem
+  +foreword: HierarchicalSection[0..1]
+  +introduction: HierarchicalSection[0..1]
+  +sections: ClauseSection[1..*]
+  +annex: AnnexSection[0..*]
+}

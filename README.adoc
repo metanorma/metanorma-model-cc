@@ -11,5 +11,15 @@ Details of the general model can be found on its page.
 
 == CalConnect Standard Document Model
 
-image::images/Csd_CsdStandardDocument.png[]
+=== Document
+
+image::images/CcDocument.png[]
+
+=== Metadata
+
+image::images/CcMetadata.png[]
+
+=== Elements
+
+image::images/CcElements.png[]
 

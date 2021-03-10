@@ -1,0 +1,12 @@
+diagram CcDocument {
+
+  include ../models/standard_document/StandardDocument.lutaml
+  include ../models/cc_document/CcStandardDocument.lutaml
+
+  association {
+    owner StandardDocument
+    member CcStandardDocument
+    owner_type inheritance
+  }
+
+}

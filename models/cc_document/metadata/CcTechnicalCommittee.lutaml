@@ -1,0 +1,4 @@
+class CcTechnicalCommittee{
+    +type: CcTechnicalCommitteeType
+    +name: String
+}

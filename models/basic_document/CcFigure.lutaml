@@ -1,0 +1,9 @@
+class CcFigure{
+    +source: String[0..1]
+    +name: LocalizedString[0..1]
+    +note: ParagraphWithFootnote[0..*]
+    +figure: Figure[0..*]
+    +definitions: DefinitionList[0..1]
+    +pre: String[0..1]
+    +content: TextElement[0..*]
+}

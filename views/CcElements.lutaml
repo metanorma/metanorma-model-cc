@@ -1,0 +1,19 @@
+diagram CcElements {
+
+  include ../models/basic_document/TextElement.lutaml
+  include ../models/basic_document/CcKeyword.lutaml
+  include ../models/basic_document/IdElement.lutaml
+  include ../models/basic_document/CcFigure.lutaml
+
+  association {
+    owner TextElement
+    member CcKeyword
+    owner_type inheritance
+  }
+
+  association {
+    owner IdElement
+    member CcFigure
+    owner_type inheritance
+  }
+}
