@@ -1,8 +1,37 @@
 enum CcStatusType <<enumeration>>{
-    proposal
-    working_draft
-    committee_draft
-    final_draft
-    published
-    withdrawn
+    unstructured {
+      definition {
+        Publication status of CalConnect document.
+      }
+    }
+    proposal {
+      definition {
+        Proposal.
+      }
+    }
+    working_draft {
+      definition {
+        Working Draft.
+      }
+    }
+    committee_draft {
+      definition {
+        Committee Draft.
+      }
+    }
+    final_draft {
+      definition {
+        Final Draft.
+      }
+    }
+    published {
+      definition {
+        Published.
+      }
+    }
+    withdrawn {
+      definition {
+        Withdrawn.
+      }
+    }
 }

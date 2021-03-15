@@ -1,3 +1,10 @@
 class CcDocumentStatus{
-    +status: CcStatusType
+    definition {
+      Publication status of CalConnect document.
+    }
+    +status: CcStatusType {
+       definition {
+          Unitary status description.
+       }
+    }
 }

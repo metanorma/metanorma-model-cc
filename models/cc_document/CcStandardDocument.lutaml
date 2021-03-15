@@ -1,7 +1,41 @@
 class CcStandardDocument {
-  +bibdata: CcBibliographicItem
-  +foreword: HierarchicalSection[0..1]
-  +introduction: HierarchicalSection[0..1]
-  +sections: ClauseSection[1..*]
-  +annex: AnnexSection[0..*]
+  definition {
+    CalConnect document.
+  }
+  +bibdata: CcBibliographicItem {
+    definition {
+      Bibliographic description of the document itself, expressed in the Relaton
+      model.
+    }
+  }
+  +foreword: HierarchicalSection[0..1] {
+    definition {
+      Forewoerd of the document.
+    }
+  }
+  +introduction: HierarchicalSection[0..1] {
+    definition {
+      Introduction to the document.
+    }
+  }
+  +sections: ClauseSection[1..*] {
+    definition {
+      One or more _sections_.
+    }
+  }
+  +annex: AnnexSection[0..*] {
+    definition {
+      Zero or more _annexes_.
+    }
+  }
+  +bibliography: ReferencesSection[0..*] {
+    definition {
+      Zero or more _bibliographies_.
+    }
+  }
+  +indexsect: HierarchicalSection[0..*] {
+    definition {
+      Index of a standards document.
+    }
+  }
 }

@@ -1,4 +1,17 @@
 enum CcTechnicalCommitteeType <<enumeration>>{
-    technical
-    provisional
+    unstructured {
+      definition {
+        Type of CalConnect technical committee.
+      }
+    }
+    technical {
+      definition {
+        Technical.
+      }
+    }
+    provisional {
+      definition {
+        Provisional.
+      }
+    }
 }
