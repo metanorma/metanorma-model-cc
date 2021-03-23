@@ -1,9 +1,9 @@
 diagram CcElements {
 
   include ../models/basic_document/TextElement.lutaml
-  include ../models/basic_document/CcKeyword.lutaml
   include ../models/basic_document/IdElement.lutaml
-  include ../models/basic_document/CcFigure.lutaml
+  include ../models/cc_document/elements/CcKeyword.lutaml
+  include ../models/cc_document/elements/CcFigure.lutaml
 
   association {
     owner TextElement
