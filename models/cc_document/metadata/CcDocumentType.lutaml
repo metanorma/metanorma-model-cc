@@ -1,47 +1,46 @@
-enum CcDocumentType <<enumeration>>{
-    unstructured {
-      definition {
-        Types of CalConnect document.
-      }
+enum CcDocumentType {
+  definition {
+    Type of CalConnect document.
+  }
+
+  directive {
+    definition {
+      Directive.
     }
-    directive {
-      definition {
-        Directive.
-      }
+  }
+  standard {
+    definition {
+      Standard.
     }
-    standard {
-      definition {
-        Standard.
-      }
+  }
+  guide {
+    definition {
+      Guide.
     }
-    guide {
-      definition {
-        Guide.
-      }
+  }
+  specification {
+    definition {
+      Specification.
     }
-    specification {
-      definition {
-        Specification.
-      }
+  }
+  amendment {
+    definition {
+      Amendment.
     }
-    amendment {
-      definition {
-        Amendment.
-      }
+  }
+  technicalCorrigendum {
+    definition {
+      Technical Corrigendum.
     }
-    technical_corrigendum {
-      definition {
-        Technical Corrigendum.
-      }
+  }
+  report {
+    definition {
+      Report.
     }
-    report {
-      definition {
-        Report.
-      }
+  }
+  administrative {
+    definition {
+      Administrative.
     }
-    administrative {
-      definition {
-        Administrative.
-      }
-    }
+  }
 }
