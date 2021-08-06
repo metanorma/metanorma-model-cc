@@ -1,4 +1,7 @@
 diagram CcElements {
+  title 'CalConnect Elements'
+  caption 'Elements of CalConnect Standard Model'
+
 
   include ../models/basic_document/TextElement.lutaml
   include ../models/basic_document/IdElement.lutaml

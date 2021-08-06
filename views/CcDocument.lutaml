@@ -1,4 +1,6 @@
 diagram CcDocument {
+  title 'CalConnect Model'
+  caption 'Elements of the Calconnect Standard Model'
 
   include ../models/standard_document/StandardDocument.lutaml
   include ../models/cc_document/CcStandardDocument.lutaml
